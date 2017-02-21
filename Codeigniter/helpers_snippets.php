@@ -46,7 +46,8 @@ $this->load->helper('download');
 $this->load->helper('email');
 
 /* ------  8. 
-   file helper functions [A] valid_email [B] send_email
+   file helper functions [A] read_file [B] write_file [C] delete_files [D] get_filenames [E] get_dir_file_info [F] get_file_info 
+   [G] get_mime_by_extension [H] symbolic_permissions [I] octal_permissions
 */
 $this->load->helper('file');
 ?>
