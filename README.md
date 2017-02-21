@@ -1,2 +1,3 @@
 # Snippets
-Snippets for html
+Snippets for various frameworks like bootstrap, codeigniter, jQuery etc.
+
