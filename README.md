@@ -1,3 +1,3 @@
 # Snippets
-Snippets for various frameworks like bootstrap, codeigniter, jQuery etc.
+Snippets for various frameworks like bootstrap, codeigniter, wordpress, jQuery etc.
 
