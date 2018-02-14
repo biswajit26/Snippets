@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Product Details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../assets/bootstrap4/css/bootstrap.min.css"/>
+	<style class="main_style">
+		.cart-basket .basket-header {
+			text-transform: uppercase;
+			font-weight: 500;
+			padding: 20px 30px;
+			border-radius: 5px;
+			background: #f5f5f5;
+		}
+		.cart-basket .basket-body {
+			padding: 0 0px;
+		}
+		.cart-basket .item {padding: 25px 30px; border: 1px solid #ddd;}
+		.cart-basket .item img {	max-width: 80px;}
+		.cart-basket .title {margin-left: 20px;}
+		.cart-basket a {	color: #333 !important; 	text-decoration: none !important;}
+		.cart-basket h5 { font-weight: 400; margin-bottom: 5px;}
+		.cart-basket .title span {font-size: 0.9em;}
+		.cart-basket .basket-body span {	font-size: 1.1em;	color: #656565;}
+		.quantity .inc-btn, .quantity .dec-btn {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+	border: 1px solid #999;
+	text-align: center;
+	cursor: pointer;
+}
+		.quantity input {
+	width: 30px;
+	height: 30px;
+	border: none;
+	text-align: center;
+	color: #333;
+	font-weight: 400;
+	line-height: 30px;
+	outline: none;
+}
+		.cart-basket i.delete {	cursor: pointer;}
+		.shopping-cart .container:first-of-type .basket-holder {	min-width: 991px;}
+		
+		@media (max-width: 992px){
+			.shopping-cart .container:first-of-type {
+	width: 100% !important;
+	overflow-x: scroll;
+}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="breadcrumb justify-content-lg-end">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="category.html">Shop</a></li>
+              <li class="breadcrumb-item active">Loose Oversized Shirt</li>
+    		</ul>
+		</div>
+	</div><!-- /.breadcrumb -->
+	
+	<!-- shopping cart section -->
+	<section class="shopping-cart">
+		<div class="container">
+			<div class="cart-basket">
+				<div class="basket-holder">
+					<div class="basket-header">
+					<div class="row">
+						<div class="col-5">Product</div>
+						<div class="col-2">Price</div>
+						<div class="col-2">Quantity</div>
+						<div class="col-2">Total</div>
+						<div class="col-1 text-center">Remove</div>
+					</div>
+				</div>
+					<div class="basket-body">
+					<!-- product -->
+					<div class="item">
+						<div class="row d-flex align-items-center">
+						  <div class="col-5">
+							<div class="d-flex align-items-center"><img src="images/shirt.png" alt="..." class="img-fluid">
+							  <div class="title"><a href="detail.html">
+								  <h5>Loose Oversised Shirt</h5><span class="text-muted">Size: Large</span></a></div>
+							</div>
+						  </div>
+						  <div class="col-2"><span>$65.00</span></div>
+						  <div class="col-2">
+							<div class="d-flex align-items-center">
+							  <div class="quantity d-flex align-items-center">
+								<div class="dec-btn">-</div>
+								<input value="4" class="quantity-no" type="text">
+								<div class="inc-btn">+</div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="col-2"><span>$325.00</span></div>
+						  <div class="col-1 text-center"><i class="delete fa fa-trash"></i></div>
+						</div>
+					 </div>
+					 <!-- product -->
+					<div class="item">
+						<div class="row d-flex align-items-center">
+						  <div class="col-5">
+							<div class="d-flex align-items-center"><img src="images/shirt.png" alt="..." class="img-fluid">
+							  <div class="title"><a href="detail.html">
+								  <h5>Loose Oversised Shirt</h5><span class="text-muted">Size: Large</span></a></div>
+							</div>
+						  </div>
+						  <div class="col-2"><span>$65.00</span></div>
+						  <div class="col-2">
+							<div class="d-flex align-items-center">
+							  <div class="quantity d-flex align-items-center">
+								<div class="dec-btn">-</div>
+								<input value="4" class="quantity-no" type="text">
+								<div class="inc-btn">+</div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="col-2"><span>$325.00</span></div>
+						  <div class="col-1 text-center"><i class="delete fa fa-trash"></i></div>
+						</div>
+					 </div>
+				</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- shopping cart section Ends -->
+</div><!-- /.main container -->
+	
+	
+
+
+
+	
+	<script type="text/javascript" src="../assets/bootstrap4/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../assets/bootstrap4/js/popper.min.js"></script>
+	<script type="text/javascript" src="../assets/bootstrap4/js/bootstrap.min.js"></script>
+</body>
+</html>
